@@ -1,0 +1,19 @@
+{
+  "azure_storage": {
+    "account_name": "mystorageaccount",
+    "container_name": "adventureworks-bronze",
+    "sas_token": "<replace_with_your_sas_token>",
+    "connection_string": "DefaultEndpointsProtocol=https;AccountName=mystorageaccount;AccountKey=<replace_with_your_key>;EndpointSuffix=core.windows.net"
+  },
+  "databricks": {
+    "workspace_url": "https://adb-1234567890.0.azuredatabricks.net",
+    "cluster_id": "0123-456789-abc123",
+    "token": "<replace_with_your_personal_access_token>"
+  },
+  "synapse": {
+    "server": "my-synapse-server.sql.azuresynapse.net",
+    "database": "AdventureWorksDW",
+    "username": "synapse_admin",
+    "password": "<replace_with_your_password>"
+  }
+}
